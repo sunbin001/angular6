@@ -1,0 +1,23 @@
+.contact-list {
+    display: -webkit-box;
+    vertical-align: top;
+    background-size: 40px;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+}
+
+.contact-list-contant {
+    margin-top: 2px;
+    display: -webkit-box;
+}
+
+.contact-list-user-info {
+    margin-left: 10px;
+    font-size: 18px;
+    line-height: 35px;
+    font-weight: 500;
+    border-bottom: 1px solid #dbd5d5;
+    padding-left: 4px;
+    width: 80%;
+}

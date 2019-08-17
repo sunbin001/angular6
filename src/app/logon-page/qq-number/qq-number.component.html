@@ -1,0 +1,12 @@
+<div class="setPosition">
+    <span class="setHeadFontFamily">微信号/QQ号码/邮箱登录</span>
+    <div class="setContantPosition setFontFamilyStyle">
+        <div><span class="">帐号</span> <input [(ngModel)]="qqNumber" class="phoneNumberPageInput" placeholder="微信号/QQ号码/油箱登录"></div>
+        <div class="setBorder"><span class="phoneNumber">密码 </span><input [(ngModel)]="passwrod" class="phoneNumberPageInput" placeholder="请填写密码"> </div>
+    </div>
+
+    <span (click)='usePhoneNumberLogon()' class="userQQlogon">用手机号码登录</span>
+    <button [disabled]="!(qqNumber?.length > 0 && passwrod?.length > 0 )" class="setButtonStyle" (click)="goToLogon()">登录</button>
+
+    {{(data$ | async).logon.userName}}
+</div>

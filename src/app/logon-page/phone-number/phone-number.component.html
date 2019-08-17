@@ -1,0 +1,9 @@
+<div class="setPosition">
+    <span class="setHeadFontFamily">手机号码登陆</span>
+    <div class="setContantPosition">
+        <div>国家/地区</div>
+        <div class="setBorder"><span class="phoneNumber">+86</span><input [(ngModel)]="phoneNumber" class="phoneNumberPageInput" placeholder="输入手机帐号"> </div>
+    </div>
+    <span class="userQQlogon" (click)="useQQNumberLogOn()">用微信号/QQ号/邮箱登录</span>
+    <button [disabled]="!(phoneNumber?.length === 11)" class="setButtonStyle" (click)='goToOtpCodeVerify()'>下一步</button>
+</div>

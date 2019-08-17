@@ -1,0 +1,19 @@
+.contact-list-title {
+    text-align: center
+}
+
+.contact-list-input {
+    border: aliceblue;
+    width: 95%;
+    position: relative;
+    left: 2%;
+    border-radius: 4px;
+    margin: 0 auto;
+    height: 22px;
+    text-align: center;
+}
+
+.contact-list-contant-position {
+    position: relative;
+    top: 10px;
+}

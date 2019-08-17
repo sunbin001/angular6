@@ -1,0 +1,9 @@
+<div>
+    <!-- <div class="contact-list-title">通讯录</div> -->
+    <div class="contact-list-title">通讯录</div>
+    <input class="contact-list-input" placeholder="搜索">
+    <div class="contact-list-contant-position">
+        <app-list-panel (alertButtonClick)="alertName($event)" imageUrl="{{site.url}}" userName='{{site.userName}}' *ngFor="let site of userInfo">
+        </app-list-panel>
+    </div>
+</div>
