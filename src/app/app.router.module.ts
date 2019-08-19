@@ -20,6 +20,7 @@ const routes: Routes = [
     }
 ];
  //tag1
+  //tag2
 @NgModule({
   imports: [ RouterModule.forRoot(routes) ],
   exports: [ RouterModule ]
