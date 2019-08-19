@@ -12,7 +12,6 @@ export class AppComponent implements OnInit, OnChanges, OnDestroy {
   ) { 
     console.log(`constructor`);
   }
-  // ngOninit
   
   ngOnInit() {
     this.logIt(`ngOnInit`);
