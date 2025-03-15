@@ -1,137 +1,90 @@
-### 更新后的 HTML 文件 (index.html)
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>11111111</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <div class="container">
-        <div class="header">
-            <img src="https://via.placeholder.com/150x80" alt="Placeholder Image" class="logo">
-            <h1>Keep</h1>
-        </div>
-        <p>2</p >
-        
-        <a href=" " class="link">3 ▶</a >
-
-        <h2>4</h2>
-        <ul>
-            <li>Make .</li>
-            <li>Make.</li>
-            <li>You .</li>
-        </ul>
-
-        <p>Don’t have </p >
-        <p>In case </p >
-
-        <a href="#" class="link">Apply  ▶</a >
-
-        <div class="buttons">
-            <button class="btn register">Register</button>
-            <button class="btn skip">Skip</button>
-        </div>
-    </div>
-</body>
-</html>
-```
-
-### 更新后的 CSS 文件 (styles.css)
-```css
-body {
+<html lang="en"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Register</title>
+<style>
+  body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-    color: #333;
-    margin: 0;
-    padding: 0;
-}
-
-.container {
-    max-width: 800px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.header {
     display: flex;
+    justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
-}
-
-.logo {
-    margin-right: 20px;
-    width: 150px;
-    height: auto;
-}
-
-h1 {
-    color: #007BFF;
+    height: 100vh;
     margin: 0;
-}
-
-h2 {
-    color: #0056b3;
-}
-
-p {
-    line-height: 1.6;
-}
-
-ul {
-    margin: 20px 0;
-    padding-left: 20px;
-}
-
-.link {
-    color: #007BFF;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.link:hover {
-    text-decoration: underline;
-}
-
-.buttons {
-    margin-top: 30px;
-}
-
-.btn {
-    border: none;
-    padding: 10px 20px;
-    margin-right: 10px;
-    cursor: pointer;
-    font-size: 16px;
-    border-radius: 5px;
-}
-
-.btn.register {
-    background-color: #FF0000; /* 红色 */
-    color: #fff;
-}
-
-.btn.register:hover {
-    background-color: #CC0000; /* 深红色 */
-}
-
-.btn.skip {
-    background-color: #fff; /* 白色 */
-    color: #333;
+  }
+  .container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  .input-group {
+    margin-bottom: 15px;
+  }
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  .input-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
     border: 1px solid #ccc;
-}
+    border-radius: 4px;
+  }
+  .button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+  .button:hover {
+    background-color: #0056b3;
+  }
+  .serial-number {
+    display: flex;
+    justify-content: space-between;
+  }
+  .serial-number input {
+    width: 30%;
+  }
+  .error-message {
+    color: red;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+  }
+</style>
+</head>
+<body>
 
-.btn.skip:hover {
-    background-color: #f4f4f4; /* 浅灰色 */
-}
-```
+<div class="container">
+  <h2>Register</h2>
+  <div class="input-group">
+    <label>Enter </label>
+    <div class="serial-number">
+      <input type="text" maxlength="2">
+      <input type="text" maxlength="4">
+      <input type="text" maxlength="2">
+    </div>
+  </div>
+  <div class="input-group">
+    <label>Re-enter</label>
+    <div class="serial-number">
+      <input type="text" maxlength="2">
+      <input type="text" maxlength="4">
+      <input type="text" maxlength="2">
+    </div>
+  </div>
+  <div class="error-message">Both </div>
+  <button class="button">Continue</button>
+  <div class="input-group">
+    <a href=" ">How r</a>
+  </div>
+</div>
 
-### 说明
-- **图片占位符**：使用 `https://via.placeholder.com/150x80` 作为占位图片，大小为150x80像素，放置在页面的左上角。
-- **布局调整**：通过 `.header` 类将图片和标题放在同一行，并使用 `display: flex` 实现对齐。
 
-您可以将更新后的代码保存并查看效果。图片占位符位于页面的左上角，标题与图片并排显示。
+</body></html>
