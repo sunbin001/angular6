@@ -1,0 +1,137 @@
+### 更新后的 HTML 文件 (index.html)
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>11111111</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="https://via.placeholder.com/150x80" alt="Placeholder Image" class="logo">
+            <h1>Keep</h1>
+        </div>
+        <p>2</p >
+        
+        <a href=" " class="link">3 ▶</a >
+
+        <h2>4</h2>
+        <ul>
+            <li>Make .</li>
+            <li>Make.</li>
+            <li>You .</li>
+        </ul>
+
+        <p>Don’t have </p >
+        <p>In case </p >
+
+        <a href="#" class="link">Apply  ▶</a >
+
+        <div class="buttons">
+            <button class="btn register">Register</button>
+            <button class="btn skip">Skip</button>
+        </div>
+    </div>
+</body>
+</html>
+```
+
+### 更新后的 CSS 文件 (styles.css)
+```css
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    margin-right: 20px;
+    width: 150px;
+    height: auto;
+}
+
+h1 {
+    color: #007BFF;
+    margin: 0;
+}
+
+h2 {
+    color: #0056b3;
+}
+
+p {
+    line-height: 1.6;
+}
+
+ul {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+.link {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+.btn {
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.btn.register {
+    background-color: #FF0000; /* 红色 */
+    color: #fff;
+}
+
+.btn.register:hover {
+    background-color: #CC0000; /* 深红色 */
+}
+
+.btn.skip {
+    background-color: #fff; /* 白色 */
+    color: #333;
+    border: 1px solid #ccc;
+}
+
+.btn.skip:hover {
+    background-color: #f4f4f4; /* 浅灰色 */
+}
+```
+
+### 说明
+- **图片占位符**：使用 `https://via.placeholder.com/150x80` 作为占位图片，大小为150x80像素，放置在页面的左上角。
+- **布局调整**：通过 `.header` 类将图片和标题放在同一行，并使用 `display: flex` 实现对齐。
+
+您可以将更新后的代码保存并查看效果。图片占位符位于页面的左上角，标题与图片并排显示。
